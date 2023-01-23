@@ -1,0 +1,21 @@
+body{
+     display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+    min-height: -moz-available;
+    min-height: -webkit-fill-available;
+    min-height: stretch;
+    @media(min-width:$md){
+        min-height: 100vh;
+    }
+ 
+    
+}
+
+a{
+    color: $primary;
+    display: inline-block;
+    &:hover{
+        opacity: 0.8;
+    }
+}

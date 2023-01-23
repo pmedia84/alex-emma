@@ -1,4 +1,8 @@
-<?php include("./inc/settings.php"); ?>
+<?php 
+include("./connect.php");
+include("./inc/settings.php");
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,8 +27,8 @@
     <!-- Theme Color for safari and mobile browsers -->
     <meta name="theme-color" content="black" />
     <!-- OG Meta Tags -->
-    <meta property="og:title" content="Bolton's Window Cleaning">
-    <meta property="og:description" content="Window and gutter cleaning services for Cambridgeshire and Norfolk">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
     <meta property="og:image" content="./assets/img/og-data/og-img.png">
     <meta property="og:url" content="">
     <meta property="og:type" content="Website">
