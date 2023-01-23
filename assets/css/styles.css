@@ -95,7 +95,7 @@ select {
     border-radius: 10px;
     padding: 0.5rem;
     height: calc(100% - 1rem);
-    background-color: #03b0fa;
+    background-color: #a1a1a1;
 } 
 /*///////Nav menu links*/ 
 .nav-links {
@@ -198,11 +198,11 @@ transition: opacity 400ms ease-out, transform 400ms ease-out;
     
 } 
 .nav-scrolled .line1, .nav-scrolled .line2, .nav-scrolled .line3 {
-        background-color: #03b0fa;
+        background-color: #a1a1a1;
         transition: transform 300ms ease-out, background-color 400ms ease-out, opacity 200ms ease-out;
     } 
 .nav-scrolled .nav-links a {
-        color: #03b0fa;
+        color: #a1a1a1;
         transition: color 400ms ease-in-out;
 
     } 
@@ -210,15 +210,15 @@ transition: opacity 400ms ease-out, transform 400ms ease-out;
             color: var(--bs-link-hover-color)
         } 
 .nav-scrolled .contact-header a, .nav-scrolled span{
-        color: #03b0fa;
+        color: #a1a1a1;
     transition: color 400ms ease-in-out;
     } 
 .nav-scrolled .logo-text {
-        fill: #03b0fa;
+        fill: #a1a1a1;
         transition: fill 400ms ease-in-out;
     } 
 .nav-scrolled .logo-swipe {
-        stroke: #03b0fa;
+        stroke: #a1a1a1;
         fill: none;
         transition: fill 400ms ease-in-out, stroke 400ms ease-in-out;
     } 
@@ -396,7 +396,7 @@ transition: opacity 400ms ease-out, transform 400ms ease-out;
 /*colour utilities*/ 
 .bg-primary-col{
     /*change bg to primary colour*/
-    background-color: #03b0fa;
+    background-color: #a1a1a1;
 } 
 .bg-secondary-col{
     /*change bg to secondary col*/
@@ -419,7 +419,7 @@ transition: opacity 400ms ease-out, transform 400ms ease-out;
 /*Font colours*/ 
 /*Change default font to primary colour*/ 
 .text-color-primary{
-    color: #03b0fa;
+    color: #a1a1a1;
 } 
 /*Change font colour to white*/ 
 .text-color-white{
