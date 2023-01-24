@@ -29,6 +29,18 @@
 .my-4{
     margin-block: $spacer-4;
 }
+
+.my-5{
+    margin-block: $spacer-5;
+}
+
+.my-6{
+    margin-block: $spacer-6;
+}
+
+.my-7{
+    margin-block: $spacer-7;
+}
 ////Padding////
 .py-4{
     padding-block: $spacer-4;
@@ -41,11 +53,14 @@
 }
 //////
 //colour utilities
-.bg-primary-col{
+.bg-primary{
     //change bg to primary colour
     background-color: $primary;
 }
 
+.primary-900{
+    background-color: $primary-900;
+}
 .bg-secondary-col{
     //change bg to secondary col
     background-color: $secondary;
