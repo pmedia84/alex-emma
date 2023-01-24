@@ -165,7 +165,7 @@ a:hover{
             font-size: 1.25rem;
             margin-block: 0.5rem;
             opacity: 0;
-            animation: navopen 1s ease-in-out forwards;
+            animation: navopen 300ms ease-in-out forwards;
         } 
 .nav-links li a:hover, .nav-links li a:focus{
                 text-decoration: underline;
@@ -980,6 +980,32 @@ input:checked + .slider:before {
     object-fit: cover;
     height: 50vh;
 }
+.day-card{
+    text-align: left;
+}
+.day-card-body{
+    display: grid;
+    gap: 1.5rem;
+}
+@media(min-width: 768px){
+.day-card-body{
+        grid-template-columns: 1fr 1fr
+}
+    }
+/*/gift list*/
+.gift-item-card{
+    padding: 1.5rem;
+    border: 2px solid #7E688C;
+    display: grid;
+    gap: 0.5rem;
+    max-width: 600px;
+}
+@media(min-width:768px){
+.gift-item-card{
+        grid-template-columns: auto 250px
+}
+        
+    }
 .cookie-overlay {/*container*/
   display: none;
     position: fixed;

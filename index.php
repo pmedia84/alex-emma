@@ -22,7 +22,7 @@
             <div class="std-card">
                 <h2>Our Story</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iure alias explicabo provident iste hic, reiciendis necessitatibus! Beatae, facilis laboriosam.</p>
-                <a href="" class="btn-primary my-3">Read More</a>
+                <a href="our_story" class="btn-primary my-3">Read More</a>
             </div>
         </section>
 

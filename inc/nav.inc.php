@@ -14,12 +14,14 @@
             <span class="sr-only">Menu</span>
         </button>
         <ul class="nav-links" id="nav-links" data-state="closed">
-            <li><a href="">RSVP</a></li>
-            <li><a href="">Our Story</a></li>
-            <li><a href="">The Big Day</a></li>
+            <li><a href="index">Home</a></li>
+            <li><a href="../../wedding-guests/rsvp" target="_blank">RSVP <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            <li><a href="our_story">Our Story</a></li>
+            <li><a href="theday">The Big Day</a></li>
             <li><a href="">Gallery</a></li>
-            <li><a href="">Gift List</a></li>
+            <li><a href="gift_list">Gift List</a></li>
             <li><a href="">Contact Us</a></li>
+            <li><a href="" target="_blank">Guest Area <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
         </ul>
 
 

@@ -88,3 +88,28 @@
     object-fit: cover;
     height: 50vh;
 }
+.day-card{
+    text-align: left;
+}
+.day-card-body{
+    display: grid;
+    gap: $spacer-3;
+    @media(min-width: $md){
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+///gift list
+.gift-item-card{
+    padding: $spacer-3;
+    border: 2px solid $primary;
+    display: grid;
+    gap: $spacer-2;
+    max-width: 600px;
+    
+    @media(min-width:$md){
+        grid-template-columns: auto 250px;
+        
+    }
+}
