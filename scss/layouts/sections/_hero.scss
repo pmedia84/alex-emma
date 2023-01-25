@@ -1,14 +1,19 @@
 .hero{
     padding-top: 84px;
-    min-height: 80vh;
+    min-height: 90vh;
     display: grid;
     place-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .hero-title{
     h1{
         font-size: $fs-250;
-        color: $primary;
+        
+        
     }
     p{
         font-size: $fs-150;
@@ -22,8 +27,5 @@
 }
 .index-hero{
     background-image: url("../../assets/img/hero/index-hero.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
+}

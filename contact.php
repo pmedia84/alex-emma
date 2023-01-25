@@ -47,6 +47,11 @@
                         <textarea name="visitor_message" id="visitor_message" cols="30" placeholder="Enter your message here..."></textarea>
 
                     </div>
+                    <div class="google-policy">
+                            <p>Our website is protected by reCAPTCHA and the Google</p>
+                            <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and
+                            <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
+                        </div>
                     <div class="button-section my-3">
                         <button class="btn-primary form-controls-btn loading-btn" type="submit">Send Message<img id="loading-icon" class="loading-icon d-none" src="./assets/img/icons/loading.svg" alt=""></button>
                     </div>

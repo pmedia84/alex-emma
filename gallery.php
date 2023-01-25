@@ -9,7 +9,7 @@ $images = $db->query('SELECT * FROM images');
 
 <body>
   <?php include("inc/nav.inc.php"); ?>
-  <div class="hero index-hero">
+  <div class="hero gallery-hero">
     <div class="container hero-container">
       <div class="hero-title text-center ">
         <h1>Our Photo Gallery</h1>
@@ -18,7 +18,7 @@ $images = $db->query('SELECT * FROM images');
 
       </div>
       <div class="hero-img-card">
-        <img src="assets/img/venue/mercure.jpg" alt="">
+        <img src="assets/img/hero/gallery-hero.jpg" alt="">
       </div>
     </div>
   </div>

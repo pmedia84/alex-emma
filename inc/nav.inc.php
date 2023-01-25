@@ -1,7 +1,7 @@
 <div class="nav-container">
     <nav class="nav-bar">
         <div class="nav-brand">
-            <span><?= $wedding_name; ?></span>
+            <a href="/"><span><?= $wedding_name; ?></span></a>
         </div>
         <button class="nav-btn" aria-controls="nav-links" id="nav-btn" type="button" aria-label="Menu" aria-expanded="false">
 

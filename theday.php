@@ -11,7 +11,7 @@ $events_day_result = $events->fetch_assoc();
 
 <body>
     <?php include("inc/nav.inc.php"); ?>
-    <div class="hero index-hero">
+    <div class="hero day-hero">
         <div class="container hero-container">
             <div class="hero-title text-center ">
                 <h1>Our Big Day</h1>

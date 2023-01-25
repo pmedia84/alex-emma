@@ -379,3 +379,10 @@ input[type="checkbox"]:focus {
     }
 }
 
+///hide recaptcha logo on small screens
+.grecaptcha-badge{
+    @media(max-width:$md){
+        visibility: hidden;
+    }
+    
+}
