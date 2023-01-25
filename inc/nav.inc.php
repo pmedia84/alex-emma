@@ -20,7 +20,7 @@
             <li><a href="theday">The Big Day</a></li>
             <li><a href="gallery">Gallery</a></li>
             <li><a href="gift_list">Gift List</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="contact">Contact Us</a></li>
             <li><a href="" target="_blank">Guest Area <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
         </ul>
 

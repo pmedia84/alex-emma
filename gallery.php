@@ -97,6 +97,7 @@ $images = $db->query('SELECT * FROM images');
 
 
   </main>
+  <script src="assets/js/gallery.js"></script>
   <?php include("inc/footer.inc.php"); ?>
 
 </body>

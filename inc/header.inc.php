@@ -26,7 +26,7 @@ include("./inc/settings.php");
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/3318fdaaaf.js" crossorigin="anonymous" defer></script>
     <!-- Google Recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6LevFFEiAAAAAPcel_AlRmOSMRgDSXCN5vT0lbmC" async="false"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdLOSYkAAAAAMhX6ojn3hk-B6v3-NWkLb-YrdB-" async="false"></script>
     <!-- Theme Color for safari and mobile browsers -->
     <meta name="theme-color" content="black" />
     <!-- OG Meta Tags -->
