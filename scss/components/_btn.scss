@@ -46,20 +46,15 @@ a.btn-primary{
     }
 }
 
-.close{//wrapper for close button
-    display: flex;
-    justify-content: flex-end;
-    margin-block: $spacer-2;
-}
+
 .btn-close{//close button
-   background: transparent url("../../assets/img/icons/close.svg") center/1.5em auto no-repeat;
     border: 0;
     border-radius: .375rem;
     padding: .25em .25em;
-    width: 2rem;
-    height: 2rem;
+    height: min-content;
     cursor: pointer;
     opacity: .5;
+    background-color: transparent;
     &:hover{
         opacity: 1;
     }
