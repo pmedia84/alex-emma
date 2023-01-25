@@ -3,9 +3,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require $_SERVER['DOCUMENT_ROOT'] . '/alex-emma/mailer/PHPMailer.php';
-require $_SERVER['DOCUMENT_ROOT'] . '/alex-emma/mailer/SMTP.php';
-require $_SERVER['DOCUMENT_ROOT'] . '/alex-emma/mailer/Exception.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/mailer/PHPMailer.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/mailer/SMTP.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/mailer/Exception.php';
 /// Define who the emails get sent to from forms filled out
 $email_to = "besleykarl@gmail.com";
 

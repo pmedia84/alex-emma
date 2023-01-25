@@ -162,7 +162,6 @@ a:hover{
 } 
 .nav-links li {
         list-style-type: none;
-        color: #7E688C;
     } 
 .nav-links li a{
             text-decoration: none;
@@ -228,6 +227,9 @@ a:hover{
 .nav-scrolled .nav-btn .hamburger {
             /*svg*/
             fill: #7E688C;
+        } 
+.nav-scrolled .nav-links li{
+            color: #7E688C;
         } 
 /*///////////////////////////////////////////////Nav Button///////////////////*/ 
 /*nav button settings*/ 

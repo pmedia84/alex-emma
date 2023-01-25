@@ -41,7 +41,7 @@
     border-bottom: 2px solid $primary;
     li {
         list-style-type: none;
-        color: $primary;
+        
         a{
             text-decoration: none;
             padding: $spacer-2;
@@ -112,6 +112,11 @@
         .hamburger {
             //svg
             fill: $primary;
+        }
+    }
+    .nav-links{
+        li{
+            color: $primary;
         }
     }
 }
