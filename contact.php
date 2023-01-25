@@ -5,7 +5,7 @@
 
 <body>
     <?php include("inc/nav.inc.php"); ?>
-    <div class="hero index-hero">
+    <div class="hero contact-hero">
         <div class="container hero-container">
             <div class="hero-title text-center ">
                 <h1>Get In Touch</h1>

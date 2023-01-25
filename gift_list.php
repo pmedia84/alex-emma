@@ -11,7 +11,7 @@ $gift_list_result = $events->fetch_assoc();
 
 <body>
     <?php include("inc/nav.inc.php"); ?>
-    <div class="hero index-hero">
+    <div class="hero gift-hero">
         <div class="container hero-container">
             <div class="hero-title text-center ">
                 <h1>Our Gift List</h1>

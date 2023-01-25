@@ -15,7 +15,6 @@ $events_day_result = $events->fetch_assoc();
         <div class="container hero-container">
             <div class="hero-title text-center ">
                 <h1>Our Big Day</h1>
-                <p><?= $wedding_name; ?></p>
                 <p><?= $wedding_date; ?></p>
 
             </div>

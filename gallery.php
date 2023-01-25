@@ -14,7 +14,6 @@ $images = $db->query('SELECT * FROM images');
       <div class="hero-title text-center ">
         <h1>Our Photo Gallery</h1>
         <p><?= $wedding_name; ?></p>
-        <p><?= $wedding_date; ?></p>
 
       </div>
       <div class="hero-img-card">

@@ -169,6 +169,7 @@ a:hover{
             width: 100%;
             text-align: center;
             font-size: 1.25rem;
+           
             margin-block: 0.5rem;
             opacity: 0;
             animation: navopen 300ms ease-in-out forwards;
@@ -228,7 +229,7 @@ a:hover{
             /*svg*/
             fill: #7E688C;
         } 
-.nav-scrolled .nav-links li{
+.nav-scrolled .nav-links li a{
             color: #7E688C;
         } 
 /*///////////////////////////////////////////////Nav Button///////////////////*/ 
@@ -298,6 +299,7 @@ a:hover{
     }
        .nav-links li a{
             opacity: 1;
+            color: black;
         }
     .nav-links[data-state="closed"] {
         display: flex;
@@ -327,6 +329,7 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: hsl(270, 27%, 95%);
 } 
 .hero-title h1{
         font-size: 2.5rem;
@@ -370,7 +373,7 @@ a:hover{
 } 
 .gallery-hero h1,.gallery-hero p{
   color: #7E688C;
-  
+
 } 
 /*/thumbnails*/ 
 .thumbnails{
@@ -516,6 +519,10 @@ img.hover-shadow {
 .gift-item-thumb{
     height: 150px;
 } 
+.gift-hero{
+    background-image: url("../../assets/img/hero/story-hero.jpg");
+    color: hsl(270, 27%, 95%);
+} 
 .std-card.index-img img{
     width: 100%;
  
@@ -528,11 +535,15 @@ img.hover-shadow {
 } 
 .story-hero{
     background-image: url("../../assets/img/hero/story-hero.jpg");
-  
+    color: hsl(270, 27%, 95%);
   } 
 .day-hero{
     background-image: url("../../assets/img/hero/day-hero.jpg");
-  color: #7E688C;
+ color: hsl(270, 27%, 95%);
+  } 
+.contact-hero{
+    background-image: url("../../assets/img/hero/day-hero.jpg");
+ color: hsl(270, 27%, 95%);
   } 
 /*Standard column gives equal widths*/ 
 @media(min-width:768px){ 

@@ -48,6 +48,7 @@
             width: 100%;
             text-align: center;
             font-size: $fs-125;
+           
             margin-block: $spacer-2;
             opacity: 0;
             animation: navopen 300ms ease-in-out forwards;
@@ -115,7 +116,7 @@
         }
     }
     .nav-links{
-        li{
+        li a{
             color: $primary;
         }
     }
@@ -194,6 +195,7 @@
         border: none;
        li a{
             opacity: 1;
+            color: black;
         }
     }
     .nav-links[data-state="closed"] {
