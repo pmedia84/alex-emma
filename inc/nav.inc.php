@@ -14,7 +14,7 @@
             <span class="sr-only">Menu</span>
         </button>
         <ul class="nav-links" id="nav-links" data-state="closed">
-            <li><a href="index">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="guests/rsvp">RSVP <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
             <li><a href="our_story">Our Story</a></li>
             <li><a href="theday">The Big Day</a></li>

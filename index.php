@@ -58,7 +58,7 @@
                     </div>
                     <h2>We Can't Wait To Celebrate With You!</h2>
                     <p>We are saying "I Do" on <?php echo $wedding_date = date('l jS F Y', $weddingdate); ?></p>
-                    <a href="" class="btn-primary my-4 btn-cta">RSVP</a>
+                    <a href="/guests/rsvp" class="btn-primary my-4 btn-cta">RSVP</a>
                 </div>
             </div>
         </section>

@@ -47,7 +47,7 @@ $events_day_result = $events->fetch_assoc();
                             <?php endif;?>    
                             
                             <h3>Let us know if you will be attending:</h3>
-                                <a href="" class="btn-primary my-3">RSVP </a>
+                                <a href="/guests/rsvp" class="btn-primary my-3">RSVP </a>
                         </div>
                         <div class="day-card-col">
                         <?php echo '<iframe frameborder="0" width="100%" height="250px" src="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=' . str_replace(",", "", str_replace(" ", "+", $event['event_address'])) . '&z=14&output=embed"></iframe>'; ?>
