@@ -30,8 +30,8 @@ include("./inc/settings.php");
     <!-- Theme Color for safari and mobile browsers -->
     <meta name="theme-color" content="#7E688C" />
     <!-- OG Meta Tags -->
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="<?=$wedding_name;?>'s Wedding Website">
+    <meta property="og:description" content="Find out about our big day and respond to your invitation">
     <meta property="og:image" content="./assets/img/og-data/og-img.png">
     <meta property="og:url" content="">
     <meta property="og:type" content="Website">
