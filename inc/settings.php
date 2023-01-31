@@ -27,3 +27,22 @@ $facebookurl = "";
     $event_location = $events_result['event_location'];
     $event_address = $events_result['event_address'];
     
+////////////////Modules Available\\\\\\\\\\\\\\\\\\\\
+//connect to modules table and load available modules
+$modules_query = ('SELECT wedding_module_name, wedding_module_status FROM wedding_modules');
+$modules = $db->query($modules_query);
+$modules_result = $modules->fetch_assoc();
+//Reviews
+$module_reviews = "On";
+$api_key = ""; //api key from google source
+$place_id = ""; //Found from google places api
+//Image Gallery
+
+
+foreach ($modules as $module) {
+    //RSVP
+    if ($module['wedding_module_name'] == "Guest Area") {
+        $guest_area_status = $module['wedding_module_status'];
+    }
+
+}

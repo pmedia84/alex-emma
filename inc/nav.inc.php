@@ -15,13 +15,18 @@
         </button>
         <ul class="nav-links" id="nav-links" data-state="closed">
             <li><a href="/">Home</a></li>
-            <li><a href="guests/rsvp">RSVP <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                <?php if ($guest_area_status == "On") : ?>
+                <li><a href="guests/rsvp">RSVP <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                <?php endif; ?>
             <li><a href="our_story">Our Story</a></li>
             <li><a href="theday">The Big Day</a></li>
             <li><a href="gallery">Gallery</a></li>
             <li><a href="gift_list">Gift List</a></li>
             <li><a href="contact">Contact Us</a></li>
-            <li><a href="/guests">Guest Area <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            <?php if ($guest_area_status == "On") : ?>
+                <li><a href="/guests">Guest Area <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                <?php endif; ?>
+            
         </ul>
 
 
