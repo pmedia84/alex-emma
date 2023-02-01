@@ -1223,6 +1223,13 @@ input:checked + .slider:before {
 }
         
     }
+/*short intro card to the couples story*/
+.story-intro{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 .cookie-overlay {/*container*/
   display: none;
     position: fixed;

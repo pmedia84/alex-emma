@@ -1,4 +1,8 @@
-<?php include("inc/header.inc.php"); ?>
+<?php include("inc/header.inc.php");
+
+$story_query = ('SELECT * FROM wedding_story LIMIT  1');
+$story = $db->query($story_query);
+$story_result = $story->fetch_assoc();?>
 <!-- All above this is for each page -->
 <title>The Wedding of <?= $wedding_name; ?></title>
 </head>
@@ -20,8 +24,12 @@
     <main>
         <section class="container my-7 text-center">
             <div class="std-card">
-                <h2>Our Story</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iure alias explicabo provident iste hic, reiciendis necessitatibus! Beatae, facilis laboriosam.</p>
+                <div class="story-intro">
+                    <?php if ($story->num_rows > 0 && $story_result['story_status'] == "Published") :
+                        $story_body = html_entity_decode($story_result['story_body']); ?>
+                        <?= $story_body; ?>
+                    <?php endif; ?>
+                </div>
                 <a href="our_story" class="btn-primary my-3">Read More</a>
             </div>
         </section>
