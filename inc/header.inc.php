@@ -1,6 +1,6 @@
 <?php
 include("./connect.php");
-include("./inc/settings.php");
+include("settings.php");
 
 ?>
 <!DOCTYPE html>
