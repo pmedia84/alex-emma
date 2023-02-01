@@ -561,6 +561,9 @@ img.hover-shadow {
     background-image: url("../../assets/img/hero/story-hero.jpg");
     color: hsl(277, 15%, 95%);
   } 
+.story p{
+      margin-block-end: 1.5rem;
+    } 
 .day-hero{
     background-image: url("../../assets/img/hero/day-hero.jpg");
  color: hsl(277, 15%, 95%);
