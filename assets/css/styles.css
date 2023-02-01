@@ -1225,10 +1225,18 @@ input:checked + .slider:before {
     }
 /*short intro card to the couples story*/
 .story-intro{
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
+    max-height: 25ch;
     overflow: hidden;
+}
+@supports(-webkit-line-clamp: 5){
+    .story-intro{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
+        max-height: auto;
+    }
+
 }
 .cookie-overlay {/*container*/
   display: none;

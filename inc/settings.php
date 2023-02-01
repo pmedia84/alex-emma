@@ -7,7 +7,7 @@
 $contactnum ="";
 $emailaddress = "";
 $facebookurl = "";
-
+include("../email_settings.php");
 //load database for wedding information
     $wedding_query = ('SELECT wedding_name, wedding_date FROM wedding LIMIT 1');
     $wedding_result = $db->query($wedding_query);
