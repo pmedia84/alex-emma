@@ -22,20 +22,20 @@ a{
 
 *{
     ::-webkit-scrollbar{ //defines scrollbar width
-        width: 0.75em;
-        
+        width: 8px;
+        height: 8px;
     }
     ::-webkit-scrollbar-thumb{ //Actual scroll block
-        background: #82aab3;
+        background: $primary;
         border-radius: 0.375rem;
         &:hover{
-            background: #82aab3a1;
+            background: $primary-700;
         }
     }
     ::-webkit-scrollbar-track{ // Track in which the scroll bar follows
-        background: #FFF5EC;
-        border: 0.5px solid #82aab3;
-        border-radius: 0.375rem; //Makes the scroll bar a pill shape and pushes it down
+        background: #fff;
+        border: 1px solid $primary;
+        border-radius: 10px; //Makes the scroll bar a pill shape and pushes it down
         margin-block: 0.25rem;
     }
 }
@@ -44,9 +44,9 @@ a{
 //Add this for firefox compatibility. Only supports two colours
 
 
-@supports (scrollbar-color: #82aab3 #FFF5EC){
+@supports (scrollbar-color: $primary #FFF5EC){
     *{
-        scrollbar-color: #82aab3 #FFF5EC ;
+        scrollbar-color: $primary #FFF5EC ;
         scrollbar-width: auto;
     }
 }

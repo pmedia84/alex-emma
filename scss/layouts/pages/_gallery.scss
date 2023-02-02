@@ -10,12 +10,17 @@ h1,p{
 .thumbnails{
   width: auto;
   margin: 0 auto;
-  overflow: scroll;
+  overflow-x: auto;
   display: flex;
 
   img{
     height: 150px;
   }
+}
+
+.thumbnails::-webkit-scrollbar{ //defines scrollbar width
+  width: 2px;
+  
 }
 
   
