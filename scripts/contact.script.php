@@ -7,15 +7,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/mailer/PHPMailer.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/mailer/SMTP.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/mailer/Exception.php';
 /// Define who the emails get sent to from forms filled out
-$email_to = "besleykarl@gmail.com";
-
-$host = "admin.parrotmedia.co.uk"; /// Hostname
-$username = "admin@admin.parrotmedia.co.uk"; ///Username
-$pass = "Krb833908"; /// Password
-$from = $username; ///Email address
-
-$fromname = "Parrot Media"; /// Username and how you want your name to be displayed on emails
-$emailheaderlogo = "";//logo url for inserting into the top of email bodies
+include("../email_settings.php");
 $response="";
 if (isset($_POST['token']) && $_POST['token'] >NULL){
    //Recaptcha security test
@@ -60,12 +52,12 @@ if($score>=0.7){
 
     ///////////////////Admins auto reply/////////////////////////
         //email subject
-        $subject = $visitor_name .' has contacted you from yuour website';
+        $subject = $visitor_name .' has contacted you from your website';
 
 
         //body of email for website admins
         $body = '<div style="background-color:#7E688C; padding:16px;font-family:sans-serif;">
-            <h1 style="text-align:center; color:white;">' . $visitor_name .' has contaced you from your contact page</h1>
+            <h1 style="text-align:center; color:white;">' . $visitor_name .' has contaced you.</h1>
             <div style="background-color: white; padding:16px; border: 10px solid #B099BF; border-radius: 10px;">
                 <h2>Message Details:</h2>
                 <p style="border-bottom:1px solid;"><strong>Name</strong>: ' . $visitor_name.' </p>
