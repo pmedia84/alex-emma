@@ -34,7 +34,7 @@ $gift_list = $db->query('SELECT * FROM gift_list');
                     $gift_item_desc = html_entity_decode($gift_item['gift_item_desc']) ;
                     ?>
                     <?php if($gift_item['gift_item_type'] =="message"):?>
-                            <div class="std-card my-3 text-center">
+                            <div class="std-card my-3">
                                 
                                 <p><?= $gift_item_desc; ?></p>
                             </div>
