@@ -1,7 +1,7 @@
 <?php include("inc/header.inc.php"); ?>
 <?php //load gift list
 $gift_list = $db->query('SELECT * FROM gift_list');
-$gift_list_result = $events->fetch_assoc();
+
 
 
 ?>
@@ -27,15 +27,24 @@ $gift_list_result = $events->fetch_assoc();
     <main>
         <section class="container">
             <h2 class="text-center my-3">Our gift ideas</h2>
-            <p class="text-center">We are very grateful for any gift you might wish to give us, if you are not sure what we may like, here are some ideas.</p>
+            
 
             <?php if ($gift_list->num_rows > 0) : ?>
-                <?php foreach ($gift_list as $gift_item) : ?>
-                    
-                        <div class="std-card my-3">
+                <?php foreach ($gift_list as $gift_item) : 
+                    $gift_item_desc = html_entity_decode($gift_item['gift_item_desc']) ;
+                    ?>
+                    <?php if($gift_item['gift_item_type'] =="message"):?>
+                            <div class="std-card my-3 text-center">
+                                <h3>A Special Request</h3>
+                                <p><?= $gift_item_desc; ?></p>
+                            </div>
+                        <?php else:?>
+                            <div class="std-card my-3">
                             <h3><?= $gift_item['gift_item_name']; ?></h3>
                             <p><?= $gift_item['gift_item_desc']; ?></p>
                         </div>
+                    <?php endif;?>    
+
                    
                     
 
