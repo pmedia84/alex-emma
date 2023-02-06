@@ -35,7 +35,7 @@ $gift_list = $db->query('SELECT * FROM gift_list');
                     ?>
                     <?php if($gift_item['gift_item_type'] =="message"):?>
                             <div class="std-card my-3 text-center">
-                                <h3>A Special Request</h3>
+                                
                                 <p><?= $gift_item_desc; ?></p>
                             </div>
                         <?php else:?>
