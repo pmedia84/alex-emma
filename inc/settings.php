@@ -30,10 +30,6 @@ $modules_query = ('SELECT wedding_module_name, wedding_module_status FROM weddin
 $modules = $db->query($modules_query);
 $modules_result = $modules->fetch_assoc();
 //Reviews
-$module_reviews = "On";
-$api_key = ""; //api key from google source
-$place_id = ""; //Found from google places api
-//Image Gallery
 
 
 foreach ($modules as $module) {
