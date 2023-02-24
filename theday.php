@@ -19,7 +19,7 @@ $events_day_result = $events->fetch_assoc();
 
             </div>
             <div class="hero-img-card">
-                <img src="assets/img/venue/mercure.jpg" alt="">
+            <img src="assets/img/hero/hero-img.webp" alt="" height="400px">
             </div>
         </div>
     </div>
@@ -59,8 +59,6 @@ $events_day_result = $events->fetch_assoc();
                     <img src="assets/img/flowers.svg" alt="">
                 </div>
             <?php endforeach; ?>
-
-
         </section>
 
 

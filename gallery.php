@@ -17,7 +17,7 @@ $images = $db->query('SELECT * FROM images');
 
       </div>
       <div class="hero-img-card">
-        <img src="assets/img/hero/gallery-hero.jpg" alt="">
+      <img src="assets/img/hero/hero-img.webp" alt="" height="400px">
       </div>
     </div>
   </div>

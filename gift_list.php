@@ -19,7 +19,7 @@ $gift_list = $db->query('SELECT * FROM gift_list');
 
             </div>
             <div class="hero-img-card">
-                <img src="assets/img/hero/index-hero-card.jpg" alt="">
+            <img src="assets/img/hero/hero-img.webp" alt="" height="400px">
             </div>
         </div>
     </div>

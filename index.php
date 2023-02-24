@@ -16,7 +16,7 @@ $story_result = $story->fetch_assoc();?>
                 <p><?php echo $wedding_date = date('l jS F Y', $weddingdate); ?></p>
             </div>
             <div class="hero-img-card">
-                <img src="assets/img/hero/index-hero-card.jpg" alt="">
+            <img src="assets/img/hero/hero-img.webp" alt="" height="400px">
             </div>
         </div>
     </div>
