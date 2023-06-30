@@ -59,6 +59,9 @@ $events_day_result = $events->fetch_assoc();
                     <img src="assets/img/flowers.svg" alt="">
                 </div>
             <?php endforeach; ?>
+            <div class="menu">
+                <h2>Our Menu for </h2>
+            </div>
         </section>
 
 
